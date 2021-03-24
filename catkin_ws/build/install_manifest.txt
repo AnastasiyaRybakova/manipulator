@@ -1,0 +1,13 @@
+/home/kist/catkin_ws/install/_setup_util.py
+/home/kist/catkin_ws/install/env.sh
+/home/kist/catkin_ws/install/setup.bash
+/home/kist/catkin_ws/install/local_setup.bash
+/home/kist/catkin_ws/install/setup.sh
+/home/kist/catkin_ws/install/local_setup.sh
+/home/kist/catkin_ws/install/setup.zsh
+/home/kist/catkin_ws/install/local_setup.zsh
+/home/kist/catkin_ws/install/.rosinstall
+/home/kist/catkin_ws/install/lib/pkgconfig/beginner_tutorials.pc
+/home/kist/catkin_ws/install/share/beginner_tutorials/cmake/beginner_tutorialsConfig.cmake
+/home/kist/catkin_ws/install/share/beginner_tutorials/cmake/beginner_tutorialsConfig-version.cmake
+/home/kist/catkin_ws/install/share/beginner_tutorials/package.xml

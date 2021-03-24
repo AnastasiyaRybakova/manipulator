@@ -1,0 +1,8 @@
+prefix=/home/kist/catkin_ws/devel
+
+Name: open_manipulator_camera
+Description: Description of open_manipulator_camera
+Version: 0.1.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: image_transport image_proc

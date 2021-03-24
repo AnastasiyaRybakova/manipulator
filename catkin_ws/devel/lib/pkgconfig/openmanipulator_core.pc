@@ -1,0 +1,8 @@
+prefix=/home/kist/catkin_ws/devel
+
+Name: openmanipulator_core
+Description: Description of openmanipulator_core
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
