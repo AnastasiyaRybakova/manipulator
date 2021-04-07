@@ -13,3 +13,28 @@ Into the package included the openmanipulator package, which have been modified 
 
 To [connect](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/ros_setup/#connection) the Openmanipulator, I am using the [U2D2 converter](https://emanual.robotis.com/docs/en/parts/interface/u2d2/), [power hub board](https://emanual.robotis.com/docs/en/parts/interface/u2d2_power_hub/) , and USB cable to be able to connect the robot with computer.
 
+## How to run the code
+
+### Testing the position control
+
+    $ roslaunch dynamixel_workbench_controllers position_control.launch
+    
+There is a topic list:
+
+    $ rostopic list
+    
+You will see next topics:
+
+  - /dynamixel_state
+  - /goal_dynamixel_position
+  - /joint_states
+
+      ![image](https://user-images.githubusercontent.com/37059842/113826542-40666e80-97bd-11eb-937f-a1e352cb4151.png)
+
+And by using $rosservice list you will the list below:
+
+  - /joint_command
+  - /position_control/get_loggers
+  - /position_control/set_logger_level
+  
+      ![image](https://user-images.githubusercontent.com/37059842/113826897-a3f09c00-97bd-11eb-8123-f78044f1f8cf.png)
