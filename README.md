@@ -38,3 +38,32 @@ And by using $rosservice list you will the list below:
   - /position_control/set_logger_level
   
       ![image](https://user-images.githubusercontent.com/37059842/113826897-a3f09c00-97bd-11eb-8123-f78044f1f8cf.png)
+      
+#### How to move the arm with Python code
+
+To move the arm with Python code we have two options:
+
+   - We move it with a Service Client (/joint_command): We can only move one joint at a time, but it waits until movement will be finished.
+   - We move it publishing in a TOpic (/goal_dynamixel_position): Moves everything at the same time, but there is no wait.
+
+After the clonning the package of the manipulator which is includingg the Python code, we need to do some more simple steps below:
+
+            $ cd ~/catkin_ws
+            $ source devel/setup.bash
+            $ rospack profile
+            $ cd src/openmanipulator_move/scripts
+            $ chmod +x move_openmanipulator.py
+            $ cd ~/catkin_ws && catkin_make
+         
+#### To run the code with real robot: 
+
+            $ roslaunch dynamixel_workbench_controllers position_control.launch
+            $ rosrun openmanipulator_move move_openmanipulator.py
+            
+
+
+
+
+
+    
+
