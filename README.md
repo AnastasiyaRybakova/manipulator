@@ -60,8 +60,9 @@ After the clonning the package of the manipulator which is includingg the Python
             $ roslaunch dynamixel_workbench_controllers position_control.launch
             $ rosrun openmanipulator_move move_openmanipulator.py
             
+#### The result of running the code:
 
-
+![](https://user-images.githubusercontent.com/37059842/114138256-56ed0100-9948-11eb-8a4e-78ec905d02e1.mp4)
 
 
 
