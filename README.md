@@ -62,7 +62,8 @@ After the clonning the package of the manipulator which is includingg the Python
             
 #### The result of running the code:
 
-![](https://user-images.githubusercontent.com/37059842/114138256-56ed0100-9948-11eb-8a4e-78ec905d02e1.mp4)
+![111](https://user-images.githubusercontent.com/37059842/114138377-826feb80-9948-11eb-99e0-524d3028d421.jpg)
+
 
 
 
