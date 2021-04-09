@@ -62,7 +62,8 @@ After the clonning the package of the manipulator which is includingg the Python
             
 #### The result of running the code:
 
-![result](https://user-images.githubusercontent.com/37059842/114138745-0924c880-9949-11eb-81e5-a58f2110f89e.mp4)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/37059842/114139017-6fa9e680-9949-11eb-9ad4-70b69129e2e2.gif)
+
 
 
 
